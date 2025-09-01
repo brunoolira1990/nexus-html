@@ -867,8 +867,329 @@ const ProdutoDetalhes = () => {
         {
           id: "tipopistao-carbonofundido-150",
           name: "Válvula Retenção Tipo Pistão Aço Carbono Fundido 150#",
-          
+          specifications: [
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15008.jpg" },
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15009.jpg" },
+            {size: "2.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15010.jpg" },
+            {size: "3\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15011.jpg" },
+            {size: "4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15013.jpg" },
+            {size: "5\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15014.jpg" },
+            {size: "6\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15015.jpg" },
+            {size: "8\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15016.jpg" },
+            {size: "10\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15017.jpg" },
+            {size: "12\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf15018.jpg" }
+          ]          
+        },
+        {
+          id: "tipopistao-carbonofundido-300",
+          name: "Válvula Retenção Tipo Pistão Aço Carbono Fundido 300#",
+          specifications: [
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30008.jpg" },
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30009.jpg" },
+            {size: "2.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30010.jpg" },
+            {size: "3\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30011.jpg" },
+            {size: "4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30013.jpg" },
+            {size: "5\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30014.jpg" },
+            {size: "6\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30015.jpg" },
+            {size: "8\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30016.jpg" },
+            {size: "10\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30017.jpg" },
+            {size: "12\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf30018.jpg" }
+          ]
+        },
+        {
+          id: "tipopistao-carbonofundido-600",
+          name: "Válvula Retenção Tipo Pistão Aço Carbono Fundido 600#",
+          specifications: [
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60009.jpg" },
+            {size: "2.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60010.jpg" },
+            {size: "3\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60011.jpg" },
+            {size: "4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60013.jpg" },
+            {size: "6\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60015.jpg" },
+            {size: "8\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60016.jpg" },
+            {size: "10\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpf60017.jpg" }]
+        },
+        {
+          id: "tipopistao-carbonoforjado-800",
+          name: "Válvula Retenção Tipo Pistão Aço Carbono Forjado 800#",
+          specifications: [
+            {size: "1/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80002.jpg" },
+            {size: "3/8\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80003.jpg" },
+            {size: "1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80004.jpg" },
+            {size: "3/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80005.jpg" },
+            {size: "1\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80006.jpg" },
+            {size: "1.1/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80007.jpg" },
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80008.jpg" },
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj80009.jpg" }
+          ]
+        },
+        {
+          id: "retenção-flanges-adaptados-150",
+          name: "Válvula Retenção Flanges Adaptados 150#",
+          specifications: [
+            {size: "1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp15004.jpg" },
+            {size: "3/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp15005.jpg" },
+            {size: "1\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp15006.jpg" },
+            {size: "1.1/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp15007.jpg" },
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp15008.jpg" },
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp15009.jpg" }
+          ]
+        },
+        {
+          id: "retenção-flanges-adaptados-300",
+          name: "Válvula Retenção Flanges Adaptados 300#",
+          specifications: [
+            {size: "1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp30004.jpg" },
+            {size: "3/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp30005.jpg" },
+            {size: "1\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp30006.jpg" },
+            {size: "1.1/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp30007.jpg" },
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp30008.jpg" },
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp30009.jpg" }
+          ]
+        },
+        {
+          id: "retenção-flanges-adaptados-600",
+          name: "Válvula Retenção Flanges Adaptados 600#",
+          specifications: [
+            {size: "1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp60004.jpg" },
+            {size: "3/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp60005.jpg" },
+            {size: "1\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp60006.jpg" },
+            {size: "1.1/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp60007.jpg" },
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp60008.jpg" },
+            {size: "2\"", drawing_url: "/imagens/valvulas-industriais/retencao/fladp60009.jpg" }
+          ]
+        },
+        {
+          id: "tipopistao-carbonoforjado-1500",
+          name: "Tipo Pistão – Aço Carbono Forjado – 1500#",
+          specifications: [
+            {size: "1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj150004.jpg" },
+            {size: "3/4\"", drawing_url:"/imagens/valvulas-industriais/retencao/tpfj150004.jpg" },
+            {size: "1\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj150006.jpg" },
+            {size: "1.1/4\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj150007.jpg" },
+            {size: "1.1/2\"", drawing_url: "/imagens/valvulas-industriais/retencao/tpfj150008.jpg" }
+          ]
         }
+      ]
+    },
+    "conexoes-tubulares": {
+      name: "Conexões Tubulares",
+      category: "Conexões",
+      image: "/imagens/conexoes_tubulares.png",
+      description: "Linha completa de conexões tubulares em aço carbono para sistemas de alta pressão e temperatura. Fabricadas conforme normas ASME B16.9, API 5L e ASTM A234, oferecendo máxima confiabilidade para aplicações industriais críticas.",
+      features: [
+        "Fabricação conforme ASME B16.9",
+        "Material aço carbono ASTM A234 WPB",
+        "Acabamento interno liso para redução de perdas de carga",
+        "Soldagem de topo (butt weld)",
+        "Disponível em diversos diâmetros e espessuras",
+        "Resistência a alta pressão e temperatura",
+        "Conformidade com normas API 5L"
+      ],
+      applications: [
+        "Petróleo e Gás",
+        "Petroquímica",
+        "Refinarias",
+        "Plantas Químicas",
+        "Sistemas de Vapor",
+        "Tubulações Industriais"
+      ],
+      models: [
+        {
+          id: "curva-45-raio-longo",
+          name: "Curva 45° Raio Curto",
+          specifications: [
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-01.jpg" },
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-02.jpg" },
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-03.jpg" },
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-04.jpg" },
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-05.jpg" },
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-06.jpg" },
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-07.jpg" },
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-08.jpg" },
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-09.jpg" },
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-10.jpg" },
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-11.jpg" },
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-12.jpg" },
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-13.jpg" },
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-14.jpg" },
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-15.jpg" },
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-16.jpg" },
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-17.jpg" },
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-18.jpg" },
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-19.jpg" },
+            {size: "22\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-20.jpg" },
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/curva-45_raio-longo/img-21.jpg" }
+          ]
+        },
+        {
+          id: "curva-90-raio-curto",
+          name: "Curva 90° Raio Curto",
+          specifications: [
+            { size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c08.jpg" },
+            { size: "2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c09.jpg" },
+            { size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c10.jpg" },
+            { size: "3\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c11.jpg" },
+            { size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c12.jpg" },
+            { size: "4\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c13.jpg" },
+            { size: "5\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c14.jpg" },
+            { size: "6\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c15.jpg" },
+            { size: "8\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c16.jpg" },
+            { size: "10\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c17.jpg" },
+            { size: "12\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c18.jpg" },
+            { size: "14\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c19.jpg" },
+            { size: "16\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c20.jpg" },
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c21.jpg" },
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c22.jpg" },
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-curto/c90c24.jpg" }
+          ]
+        },
+        {
+          id: "curva-90-raio-longo",
+          name: "Curva 90° Raio Longo",
+          specifications: [
+            { size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-01.jpg" },
+            { size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-02.jpg" },
+            { size: "1\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-03.jpg" },
+            { size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-04.jpg" },
+            { size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-05.jpg" },
+            { size: "2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-06.jpg" },
+            { size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-07.jpg" },
+            { size: "3\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-08.jpg" },
+            { size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-10.jpg" },
+            { size: "4\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-11.jpg" },
+            { size: "5\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-12.jpg" },
+            { size: "6\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-13.jpg" },
+            { size: "8\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-14.jpg" },
+            { size: "10\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-15.jpg" },
+            { size: "12\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-16.jpg" },
+            { size: "14\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-17.jpg" },
+            { size: "16\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-18.jpg" },
+            { size: "18\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-19.jpg" },
+            { size: "20\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-20.jpg" },
+            { size: "24\"", drawing_url: "/imagens/conexoes-tubulares/curva-90_raio-longo/img-21.jpg" }
+          ]
+        },
+        {
+          id: "curva-180-raio-curto",
+          name: "Curva 180° Raio Curto",
+          specifications:[
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-01.jpg" },
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-02.jpg" },
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-03.jpg" },
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-04.jpg" },
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-05.jpg" },
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-06.jpg" },
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-07.jpg" },
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-08.jpg" },
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-09.jpg" },
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-10.jpg" },
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-11.jpg" },
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-12.jpg" },
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-13.jpg" },
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-14.jpg" },
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-15.jpg" },
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-curto/img-16.jpg"}
+          ]
+        },
+        {
+          id: "te-45",
+          name: "Tê 45°",
+          specifications:[
+            { size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-01.jpg" },
+            { size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-02.jpg" },
+            { size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-03.jpg" },
+            { size: "2\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-04.jpg" },
+            { size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-05.jpg" },
+            { size: "3\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-06.jpg" },
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-07.jpg" },
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-08.jpg" },
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-09.jpg" },
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-10.jpg" },
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-11.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-12.jpg"},
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-13.jpg"},
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-14.jpg"},
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-15.jpg"},
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-16.jpg"},
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-17.jpg"},
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/te-45/img-17.jpg"}
+          ]
+        },
+        {
+          id: "te-90",
+          name: "Tê 90°",
+          specifications: [
+            { size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-01.jpg" },
+            { size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-02.jpg" },
+            { size: "1\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-03.jpg" },
+            { size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-04.jpg" },
+            { size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-05.jpg" },
+            { size: "2\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-06.jpg" },
+            { size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-07.jpg" },
+            { size: "3\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-08.jpg" },
+            { size: "4\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-09.jpg" },
+            { size: "5\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-10.jpg" },
+            { size: "6\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-11.jpg" },
+            { size: "8\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-12.jpg" },
+            { size: "10\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-13.jpg" },
+            { size: "12\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-14.jpg" },
+            { size: "14\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-15.jpg" },
+            { size: "16\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-16.jpg" },
+            { size: "18\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-17.jpg" },
+            { size: "20\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-18.jpg" },
+            {size: "22\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-19.jpg" },
+            { size: "24\"", drawing_url: "/imagens/conexoes-tubulares/te-90/img-20.jpg" }
+          ]
+        },
+        {
+          id: "reducao-concentrica",
+          name: "Redução Concêntrica",
+          specifications: [
+            { size: "3/4\" x 1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-01.jpg" },
+            { size: "1\" x 1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-02.jpg" },
+            { size: "1\" x 3/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-03.jpg" },
+            { size: "1.1/4\" x 3/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-04.jpg" },
+            { size: "1.1/4\" x 1\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-05.jpg" },
+            { size: "1.1/2\" x 1\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-06.jpg" },
+            { size: "1.1/2\" x 1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-07.jpg" },
+            { size: "2\" x 1\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-08.jpg" },
+            { size: "2\" x 1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-09.jpg" },
+            { size: "2\" x 1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-10.jpg" },
+            {size: "2.1/2\" x 1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-11.jpg" },
+            { size: "2.1/2\" x 1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-12.jpg" },
+            { size: "2.1/2\" x 2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-13.jpg" },
+            {size: "3\" x 1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-14.jpg" },
+            { size: "3\" x 2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-15.jpg" },
+            { size: "3\" x 2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-16.jpg" },
+            { size: "4\" x 2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-17.jpg" },
+            {size: "4\" x 2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-18.jpg" },            
+            { size: "4\" x 3\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-19.jpg" },
+            {size: "5\" x 2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-20.jpg" },
+            {size: "5\" x 3\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-21.jpg" },
+            {size: "5\" x 4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-22.jpg" },
+            { size: "6\" x 3\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-23.jpg" },
+            {size: "6\" x 4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-24.jpg" },
+            {size: "8\" x 4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-25.jpg" },
+            {size: "8\" x 5\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-26.jpg" },
+            { size: "8\" x 6\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-27.jpg" },
+            {size: "10\" x 6\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-28.jpg" },
+            { size: "10\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-29.jpg" },
+            {size: "12\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-30.jpg" },
+            { size: "12\" x 10\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-31.jpg" },
+            {size: "14\" x 6\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-32.jpg" },
+            {size: "14\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-33.jpg" },
+            {size: "14\" x 10\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-34.jpg" },
+            { size: "14\" x 12\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-35.jpg" },
+            {size: "16\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-concentrica/img-36.jpg" }
+          ]
+        },
+        {
+          id: "reducao-transversal",
+          name: "Redução Transversal",
+          specifications: [
+            
+          ]
+        },
       ]
     }
   };

@@ -1,12 +1,62 @@
 import { useMemo } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { SEO } from "@/components/SEO";
+import { useParallax } from "@/hooks/use-parallax";
+import { useScrollReveal, useStaggeredReveal } from "@/hooks/use-scroll-reveal";
+import { ParallaxCard } from "@/components/ParallaxCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Factory, Wrench, Settings, Shield } from "lucide-react";
 
 const Index = () => {
+  // Parallax effects
+  const heroParallax = useParallax({ speed: 0.5, direction: 'up' });
+  const backgroundParallax = useParallax({ speed: 0.3, direction: 'down' });
+
+  // Scroll reveal animations
+  const heroTitleReveal = useScrollReveal({ 
+    direction: 'up', 
+    distance: 80, 
+    duration: 1000,
+    delay: 300
+  });
+  
+  const heroSubtitleReveal = useScrollReveal({ 
+    direction: 'up', 
+    distance: 60, 
+    duration: 1000,
+    delay: 600
+  });
+  
+  const heroButtonReveal = useScrollReveal({ 
+    direction: 'up', 
+    distance: 40, 
+    duration: 800,
+    delay: 900
+  });
+
+  const segmentsTitleReveal = useScrollReveal({
+    direction: 'up',
+    distance: 50,
+    duration: 800,
+    threshold: 0.3
+  });
+
+  const featuresTitleReveal = useScrollReveal({
+    direction: 'up',
+    distance: 50,
+    duration: 800,
+    threshold: 0.3
+  });
+
+  const featuresReveal = useStaggeredReveal(3, {
+    direction: 'up',
+    distance: 60,
+    duration: 800,
+    staggerDelay: 200,
+    threshold: 0.3
+  });
   const segments = useMemo(() => [
     {
       title: "Química",
@@ -54,26 +104,45 @@ const Index = () => {
         keywords="válvulas industriais, conexões industriais, válvulas química, válvulas refinaria, válvulas siderúrgica, válvulas usina, válvulas metalúrgica, válvulas petroquímica, nexus, brasil"
       />
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-r from-primary to-primary/80 text-primary-foreground">
+      <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-r from-primary to-primary/80 text-primary-foreground overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-20 will-change-transform"
           style={{
-            backgroundImage: "url('/src/assets/hero-industrial.jpg')"
+            backgroundImage: "url('/src/assets/hero-industrial.jpg')",
+            ...backgroundParallax.style
           }}
         />
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Nexus Válvulas E<br />
-            Conexões Industriais
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Com mais de 20 anos de experiência no mercado, a Nexus é uma das 
-            principais fornecedoras de válvulas e conexões industriais no Brasil.
-          </p>
-          <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-4">
-            Saiba Mais
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <div 
+            className="will-change-transform"
+            style={heroParallax.style}
+          >
+            <h1 
+              className="text-5xl md:text-6xl font-bold mb-6"
+              ref={heroTitleReveal.ref}
+              style={heroTitleReveal.style}
+            >
+              Nexus Válvulas E<br />
+              Conexões Industriais
+            </h1>
+            <p 
+              className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto"
+              ref={heroSubtitleReveal.ref}
+              style={heroSubtitleReveal.style}
+            >
+              Com mais de 20 anos de experiência no mercado, a Nexus é uma das 
+              principais fornecedoras de válvulas e conexões industriais no Brasil.
+            </p>
+            <div
+              ref={heroButtonReveal.ref}
+              style={heroButtonReveal.style}
+            >
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-4">
+                Saiba Mais
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -98,40 +167,27 @@ const Index = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Segmentos Atendidos</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Atendemos diversos setores industriais com soluções especializadas 
-              e produtos de alta qualidade
-            </p>
+            <div
+              ref={segmentsTitleReveal.ref}
+              style={segmentsTitleReveal.style}
+            >
+              <h2 className="text-4xl font-bold mb-4">Segmentos Atendidos</h2>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Atendemos diversos setores industriais com soluções especializadas 
+                e produtos de alta qualidade
+              </p>
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {segments.map((segment, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 cursor-pointer">
-                <div className="aspect-video rounded-t-lg overflow-hidden">
-                  {segment.image ? (
-                    <img
-                      src={segment.image}        // caminho da imagem
-                      alt={segment.title}
-                      className="w-full h-full object-cover" // cobre todo o card mantendo proporção
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                      <Factory className="h-16 w-16 text-primary" />
-                    </div>
-                  )}
-                </div>
-                <CardHeader>
-                  <CardTitle className="group-hover:text-accent transition-colors">
-                    {segment.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base">
-                    {segment.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
+              <ParallaxCard
+                key={index}
+                title={segment.title}
+                description={segment.description}
+                image={segment.image}
+                index={index}
+              />
             ))}
           </div>
         </div>
@@ -141,12 +197,24 @@ const Index = () => {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Por que escolher a Nexus?</h2>
+            <div
+              ref={featuresTitleReveal.ref}
+              style={featuresTitleReveal.style}
+            >
+              <h2 className="text-4xl font-bold mb-4">Por que escolher a Nexus?</h2>
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-accent/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+            <div 
+              className="text-center"
+              ref={featuresReveal[0].ref}
+              style={{
+                ...featuresReveal[0].style,
+                transform: featuresReveal[0].isVisible ? 'translateY(0)' : 'translateY(60px)'
+              }}
+            >
+              <div className="bg-accent/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 transition-transform duration-300 hover:scale-110">
                 <Shield className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Qualidade</h3>
@@ -155,8 +223,15 @@ const Index = () => {
               </p>
             </div>
             
-            <div className="text-center">
-              <div className="bg-accent/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+            <div 
+              className="text-center"
+              ref={featuresReveal[1].ref}
+              style={{
+                ...featuresReveal[1].style,
+                transform: featuresReveal[1].isVisible ? 'translateY(0)' : 'translateY(60px)'
+              }}
+            >
+              <div className="bg-accent/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 transition-transform duration-300 hover:scale-110">
                 <Wrench className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Atendimento</h3>
@@ -165,8 +240,15 @@ const Index = () => {
               </p>
             </div>
             
-            <div className="text-center">
-              <div className="bg-accent/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+            <div 
+              className="text-center"
+              ref={featuresReveal[2].ref}
+              style={{
+                ...featuresReveal[2].style,
+                transform: featuresReveal[2].isVisible ? 'translateY(0)' : 'translateY(60px)'
+              }}
+            >
+              <div className="bg-accent/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 transition-transform duration-300 hover:scale-110">
                 <Settings className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Entrega</h3>

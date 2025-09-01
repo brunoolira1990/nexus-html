@@ -1,4 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
+import { SEO } from "@/components/SEO";
+import { useScrollReveal, useStaggeredReveal } from "@/hooks/use-scroll-reveal";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Wrench, Settings, Gauge, Factory, Flame, Droplets } from "lucide-react";
@@ -6,6 +8,52 @@ import { useNavigate } from "react-router-dom";
 
 const Produtos = () => {
   const navigate = useNavigate();
+  
+  // Scroll reveal animations
+  const headerTitleReveal = useScrollReveal({
+    direction: 'up',
+    distance: 60,
+    duration: 800,
+    delay: 200
+  });
+  
+  const headerSubtitleReveal = useScrollReveal({
+    direction: 'up',
+    distance: 40,
+    duration: 800,
+    delay: 400
+  });
+  
+  const categoriesReveal = useStaggeredReveal(7, {
+    direction: 'up',
+    distance: 60,
+    duration: 800,
+    staggerDelay: 150,
+    threshold: 0.2
+  });
+  
+  const ctaTitleReveal = useScrollReveal({
+    direction: 'up',
+    distance: 50,
+    duration: 800,
+    threshold: 0.3
+  });
+  
+  const ctaSubtitleReveal = useScrollReveal({
+    direction: 'up',
+    distance: 40,
+    duration: 800,
+    delay: 200,
+    threshold: 0.3
+  });
+  
+  const ctaButtonReveal = useScrollReveal({
+    direction: 'up',
+    distance: 30,
+    duration: 800,
+    delay: 400,
+    threshold: 0.3
+  });
   
   const categories = [
     {
@@ -65,14 +113,27 @@ const Produtos = () => {
 
   return (
     <Layout>
+      <SEO
+        title="Nossos Produtos - Válvulas e Conexões Industriais"
+        description="Oferecemos uma linha completa de válvulas, conexões e acessórios industriais para atender às mais diversas necessidades do setor industrial. Válvulas industriais, flanges, tubos e mais."
+        keywords="válvulas industriais, conexões industriais, flanges, tubos industriais, acessórios industriais, combate incêndio, nexus produtos"
+      />
       {/* Header Section */}
       <section className="bg-primary text-primary-foreground py-16">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 
+              className="text-4xl md:text-5xl font-bold mb-4"
+              ref={headerTitleReveal.ref}
+              style={headerTitleReveal.style}
+            >
               Nossos Produtos
             </h1>
-            <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto">
+            <p 
+              className="text-xl text-primary-foreground/80 max-w-3xl mx-auto"
+              ref={headerSubtitleReveal.ref}
+              style={headerSubtitleReveal.style}
+            >
               Oferecemos uma linha completa de válvulas, conexões e acessórios industriais 
               para atender às mais diversas necessidades do setor industrial
             </p>
@@ -84,14 +145,18 @@ const Produtos = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {categories.map((category) => {
+            {categories.map((category, index) => {
               const IconComponent = category.image;
               return (
-                <Card 
-                  key={category.id} 
-                  className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-2 hover:border-accent"
-                  onClick={() => handleCategoryClick(category.id)}
+                <div
+                  key={category.id}
+                  ref={categoriesReveal[index].ref}
+                  style={categoriesReveal[index].style}
                 >
+                  <Card 
+                    className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-2 hover:border-accent h-full"
+                    onClick={() => handleCategoryClick(category.id)}
+                  >
                   <CardHeader className="p-0 flex justify-center">
                     {category.image && (
                       <img
@@ -136,7 +201,8 @@ const Produtos = () => {
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </CardContent>
-                </Card>
+                  </Card>
+                </div>
               );
             })}
           </div>
@@ -146,21 +212,34 @@ const Produtos = () => {
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 
+            className="text-3xl font-bold mb-4"
+            ref={ctaTitleReveal.ref}
+            style={ctaTitleReveal.style}
+          >
             Não encontrou o que procura?
           </h2>
-          <p className="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
+          <p 
+            className="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto"
+            ref={ctaSubtitleReveal.ref}
+            style={ctaSubtitleReveal.style}
+          >
             Nossa equipe técnica pode ajudar você a encontrar a solução ideal 
             para sua aplicação específica
           </p>
-          <Button 
-            size="lg" 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground"
-            onClick={() => navigate('/contato')}
+          <div
+            ref={ctaButtonReveal.ref}
+            style={ctaButtonReveal.style}
           >
-            Entre em Contato
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+            <Button 
+              size="lg" 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground"
+              onClick={() => navigate('/contato')}
+            >
+              Entre em Contato
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </div>
         </div>
       </section>
     </Layout>
