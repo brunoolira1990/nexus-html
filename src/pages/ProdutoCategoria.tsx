@@ -104,10 +104,10 @@ const ProdutoCategoria = () => {
         {
           id: "conexoes-forjadas",
           name: "Conexões Forjadas",
-          description: "Conexões forjadas de alta resistência para aplicações críticas",
+          description: "Conexões forjadas de alta resistência fabricadas conforme normas ASME B16.11, MSS SP-79 e BS 3799. Ideais para aplicações de alta pressão e temperatura em sistemas industriais críticos.",
           image: "/imagens/conexoes_forjadas.png",
-          applications: ["Alta Pressão", "Vapor", "Química"],
-          materials: ["Aço Carbono", "Aço Inox", "Liga de Níquel"]
+          applications: ["Petróleo e Gás", "Petroquímica", "Refinarias", "Usinas de Energia", "Química", "Papel e Celulose", "Sistemas de Vapor", "Offshore"],
+          materials: ["Aço Carbono A105", "Aço Inox 304/316", "Aço Inox 321/347", "Liga de Níquel", "Duplex 2205", "Super Duplex 2507", "Inconel", "Monel"]
         },
         {
           id: "conexoes-ferro",

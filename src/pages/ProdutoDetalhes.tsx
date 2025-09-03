@@ -1092,6 +1092,33 @@ const ProdutoDetalhes = () => {
           ]
         },
         {
+          id: "curva-180-raio-longo",
+          name: "Curva 180° Raio Longo",
+          specifications:[
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-01.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-02.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-03.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-04.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-05.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-06.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-07.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-08.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-09.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-10.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-11.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-12.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-13.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-14.jpg"},
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-15.jpg"},
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-16.jpg"},
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-17.jpg"},
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-18.jpg"},
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-19.jpg"},
+            {size: "22\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-20.jpg"},
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/curva-180_raio-longo/img-21.jpg"}
+          ]
+        },
+        {
           id: "te-45",
           name: "Tê 45°",
           specifications:[
@@ -1184,13 +1211,693 @@ const ProdutoDetalhes = () => {
           ]
         },
         {
-          id: "reducao-transversal",
-          name: "Redução Transversal",
+          id: "reducao-excentrica",
+          name: "Redução Excêntrica",
           specifications: [
-            
+            {size: "3/4\" x 1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-01.jpg"},
+            {size: "1\" x 1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-02.jpg"},
+            {size: "1\" x 3/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-03.jpg"},
+            {size: "1.1/4\" x 3/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-04.jpg"},
+            {size: "1.1/4\" x 1\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-05.jpg"},
+            {size: "1.1/2\" x 1\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-06.jpg"},
+            {size: "1.1/2\" x 1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-07.jpg"},
+            {size: "2\" x 1\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-08.jpg"},
+            {size: "2\" x 1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-09.jpg"},
+            {size: "2\" x 1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-10.jpg"},
+            {size: "2.1/2\" x 1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-11.jpg"},
+            {size: "2.1/2\" x 1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-12.jpg"},
+            {size: "2.1/2\" x 2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-13.jpg"},
+            {size: "3\" x 1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-14.jpg"},
+            {size: "3\" x 2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-15.jpg"},
+            {size: "3\" x 2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-16.jpg"},
+            {size: "4\" x 2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-17.jpg"},
+            {size: "4\" x 2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-18.jpg"},
+            {size: "4\" x 3\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-19.jpg"},
+            {size: "5\" x 2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-20.jpg"},
+            {size: "5\" x 3\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-21.jpg"},
+            {size: "5\" x 4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-22.jpg"},
+            {size: "6\" x 3\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-23.jpg"},
+            {size: "6\" x 4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-24.jpg"},
+            {size: "8\" x 4\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-25.jpg"},
+            {size: "8\" x 5\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-26.jpg"},
+            {size: "8\" x 6\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-27.jpg"},
+            {size: "10\" x 6\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-28.jpg"},
+            {size: "10\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-29.jpg"},
+            {size: "12\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-30.jpg"},
+            {size: "12\" x 10\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-31.jpg"},
+            {size: "14\" x 6\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-32.jpg"},
+            {size: "14\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-33.jpg"},
+            {size: "14\" x 10\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-34.jpg"},
+            {size: "14\" x 12\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-35.jpg"},
+            {size: "16\" x 8\"", drawing_url: "/imagens/conexoes-tubulares/reducao-excentrica/img-36.jpg"}
           ]
         },
+        {
+          id: "tampao-cap",
+          name: "Tampão - Cap",
+          specifications: [
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-01.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-02.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-03.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-04.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-05.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-06.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-07.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-08.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-09.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-10.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-11.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-12.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-13.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-14.jpg"},
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-15.jpg"},
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-16.jpg"},
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-17.jpg"},
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-18.jpg"},
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-19.jpg"},
+            {size: "22\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-20.jpg"},
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/tampao/img-21.jpg"}
+          ]
+        },
+        {
+          id: "niple-reducao-concentrico",
+          name: "Niple de Redução Concêntrico",
+          specifications: [
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-01.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-02.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-03.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-04.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-05.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-06.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-07.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-08.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-09.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-10.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-12.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-13.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-14.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-15.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-concentrico/img-16.jpg"}
+          ]
+        },
+        {
+          id: "niple-reducao-excentrico",
+          name: "Niple de Redução Excêntrico",
+          specifications: [
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-01.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-02.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-03.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-04.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-05.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-06.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-07.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-08.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-09.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-10.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-12.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-13.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-14.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-15.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/niple-reducao-excentrico/img-16.jpg"}
+          ]
+        },
+        {
+          id: "niple-extensao",
+          name: "Niple Extensão",
+          specifications:[
+            {size: "ROSCA x ROSCA", drawing_url: "/imagens/conexoes-tubulares/niple-extensao/img-01.jpg"},
+            {size: "ROSCA x BISELADA", drawing_url: "/imagens/conexoes-tubulares/niple-extensao/img-02.jpg"},
+            {size: "PLANA x BISELADA", drawing_url: "/imagens/conexoes-tubulares/niple-extensao/img-03.jpg"},
+            {size: "ROSCA x PLANA", drawing_url: "/imagens/conexoes-tubulares/niple-extensao/img-04.jpg"},
+            {size: "BISELADA x BISELADA", drawing_url: "/imagens/conexoes-tubulares/niple-extensao/img-05.jpg"},
+            {size: "PLANA x PLANA", drawing_url: "/imagens/conexoes-tubulares/niple-extensao/img-06.jpg"}
+          ]
+        },
+        {
+          id: "pestana-curta",
+          name: "Pestana Curta",
+          specifications:[
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-01.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-02.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-03.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-04.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-05.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-06.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-07.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-08.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-09.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-10.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-11.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-12.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-13.jpg"},
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-14.jpg"},
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-15.jpg"},
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-16.jpg"},
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-17.jpg"},
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-18.jpg"},
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/pestana-curta/img-19.jpg"}
+          ]
+        },
+        {
+          id: "pestana-longa-stub-end",
+          name: "Pestana Longa - Stub End",
+          specifications:[
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-01.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-02.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-03.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-04.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-05.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-06.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-07.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-08.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-09.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-10.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-11.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-12.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-13.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-14.jpg"},
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-15.jpg"},
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-16.jpg"},
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-17.jpg"},
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-18.jpg"},
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-19.jpg"},
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/pestana-longa-stub-end/img-20.jpg"}
+          ]
+        },
+        {
+          id: "pestana-mss",
+          name: "Pestana MSS",
+          specifications:[
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-01.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-02.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-03.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-04.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-05.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-06.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-07.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-08.jpg"},
+            {size: "3.1/2\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-09.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-10.jpg"},
+            {size: "5\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-11.jpg"},
+            {size: "6\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-12.jpg"},
+            {size: "8\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-13.jpg"},
+            {size: "10\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-14.jpg"},
+            {size: "12\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-15.jpg"},
+            {size: "14\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-16.jpg"},
+            {size: "16\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-17.jpg"},
+            {size: "18\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-18.jpg"},
+            {size: "20\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-19.jpg"},
+            {size: "24\"", drawing_url: "/imagens/conexoes-tubulares/pestana-mss/img-20.jpg"}
+          ]
+        }
       ]
+    },
+    "conexoes-forjadas": {
+      name: "Conexões Forjadas",
+      category: "Conexões",
+      image: "/imagens/conexoes_forjadas.png",
+      description: "Conexões forjadas de alta resistência fabricadas conforme normas ASME B16.11, MSS SP-79 e BS 3799. Ideais para aplicações de alta pressão e temperatura em sistemas industriais críticos, oferecendo máxima confiabilidade e resistência à corrosão.",
+      features: [
+        "Fabricação conforme ASME B16.11",
+        "Conformidade com MSS SP-79 e BS 3799",
+        "Material aço carbono A105 e aço inox 304/316",
+        "Conexão roscada NPT ou BSP",
+        "Resistência a alta pressão até 6000 PSI",
+        "Temperatura de trabalho até 400°C",
+        "Acabamento forjado para maior resistência",
+        "Disponível em diversos materiais especiais"
+      ],
+      applications: [
+        "Petróleo e Gás",
+        "Petroquímica",
+        "Refinarias",
+        "Usinas de Energia",
+        "Química",
+        "Papel e Celulose",
+        "Sistemas de Vapor",
+        "Offshore"
+      ],
+      models: [
+        {
+          id: "cotovelo-90-45-te-cruzeta-2000#",
+          name: "Cotovelo 90° - 45° – Te - Cruzeta - 2000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_2000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "cotovelo-90-45-te-cruzeta-3000#",
+          name: "Cotovelo 90° - 45° – Te - Cruzeta - 3000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+           id: "cotovelo-90-45-te-cruzeta-6000#",
+          name: "Cotovelo 90° - 45° – Te - Cruzeta - 6000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/cotovelo-90-45-te-cruzeta_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "plugs-e-buchas",
+          name: "Plugs e Buchas",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/plugs-e-buchas/img-12.jpg"}
+          ]
+        },
+        {
+          id: "luva-3000#",
+          name: "Luva 3000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "luva-6000#",
+          name: "Luva 6000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/luva_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "meia-luva-3000#",
+          name: "Meia Luva 3000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "meia-luva-6000#",
+          name: "Meia Luva 6000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/meia-luva_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "tampao-3000#",
+          name: "Tampão 3000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "tampao-6000#",
+          name: "Tampão 6000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/tampao_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "uniao-3000#",
+          name: "União 3000#",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-com-rosca/uniao_3000-libras/img-11.jpg"}
+          ]
+        },
+        {
+          id: "cotovelo-90-45-te-cruzeta-socket-3000",
+          name: "Cotovelo 90° – 45° — Te — Cruzeta – 3000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "cotovelo-90-45-te-cruzeta-socket-6000",
+          name: "Cotovelo 90° – 45° — Te — Cruzeta – 6000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "cotovelo-90-45-te-cruzeta-socket-9000",
+          name: "Cotovelo 90° – 45° — Te — Cruzeta – 9000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/cotovelo-90-45-te-cruzeta-socket_9000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "luva-socket-3000",
+          name: "Luva – 3000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "luva-socket-6000",
+          name: "Luva – 6000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "luva-socket-9000",
+          name: "Luva – 9000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/luva-socket_9000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "meia-luva-socket-3000",
+          name: "Meia Luva – 3000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "meia-luva-socket-6000",
+          name: "Meia Luva – 6000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "meia-luva-socket-9000",
+          name: "Meia Luva – 9000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/meia-luva-socket_9000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "tampao-socket-3000",
+          name: "Tampão – 3000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_3000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "tampao-socket-6000",
+          name: "Tampão – 6000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_6000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "tampao-socket-9000",
+          name: "Tampão – 9000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-11.jpg"},
+            {size: "4\"", drawing_url: "/imagens/conexoes-forjadas-socket/tampao-socket_9000-libras/img-12.jpg"}
+          ]
+        },
+        {
+          id: "uniao-socket-3000",
+          name: "União – 3000 Libras",
+          specifications: [
+            {size: "1/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-01.jpg"},
+            {size: "1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-02.jpg"},
+            {size: "3/8\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-03.jpg"},
+            {size: "1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-04.jpg"},
+            {size: "3/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-05.jpg"},
+            {size: "1\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-06.jpg"},
+            {size: "1.1/4\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-07.jpg"},
+            {size: "1.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-08.jpg"},
+            {size: "2\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-09.jpg"},
+            {size: "2.1/2\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-10.jpg"},
+            {size: "3\"", drawing_url: "/imagens/conexoes-forjadas-socket/uniao-socket_3000-libras/img-11.jpg"}
+          ]
+        },        
+      ]
+    },
+    "conexoes-ferro": {
+      name: "Conexões de Ferro",
+      category: "Conexões",
+      image: "/imagens/conexoes_ferro.png",
+      description: "Conexões em ferro fundido e ferro maleável para aplicações gerais em sistemas de baixa pressão. Ideais para instalações de água, ar comprimido e vapor de baixa pressão, oferecendo excelente relação custo-benefício e facilidade de instalação.",
+      features: [
+        "Material ferro fundido e ferro maleável",
+        "Rosca padrão BSP ou NPT",
+        "Acabamento galvanizado disponível",
+        "Fácil instalação e manutenção",
+        "Excelente relação custo-benefício",
+        "Resistente à corrosão (quando galvanizado)",
+        "Ampla disponibilidade no mercado",
+        "Conformidade com normas DIN e ABNT"
+      ],
+      applications: [
+        "Sistemas de Água",
+        "Ar Comprimido",
+        "Vapor de Baixa Pressão",
+        "Redes Prediais",
+        "Sistemas de Irrigação",
+        "Instalações Industriais Básicas",
+        "Oficinas e Garagens",
+        "Sistemas de Aquecimento"
+      ],
+      models: []
     }
   };
 
@@ -1302,24 +2009,62 @@ const ProdutoDetalhes = () => {
 
             {/* Right Column - Specifications */}
             <div className="space-y-6">
-              {/* Model Selection */}
-              <Card>
-                <CardHeader>
-                  <CardTitle>Especificações Técnicas</CardTitle>
-                  <CardDescription>
-                    Selecione o modelo e tamanho para ver as especificações detalhadas
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  {/* Model Selector */}
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium">Modelo:</label>
-                    <Select value={selectedModel} onValueChange={setSelectedModel}>
-                      <SelectTrigger>
-                        <SelectValue placeholder="Selecione um modelo" />
-                      </SelectTrigger>
+              {/* Model Selection - Only show if product has models */}
+              {currentProduct.models && currentProduct.models.length > 0 && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Especificações Técnicas</CardTitle>
+                    <CardDescription>
+                      Selecione o modelo e tamanho para ver as especificações detalhadas
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    {/* Model Selector */}
+                    <div className="space-y-2">
+                      <label className="text-sm font-medium">Modelo:</label>
+                      <Select value={selectedModel} onValueChange={setSelectedModel}>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Selecione um modelo" />
+                        </SelectTrigger>
                       <SelectContent>
-                        {currentProduct.models?.map((model: ProductModel) => (
+                        <div className="px-2 py-1.5 text-sm font-medium text-muted-foreground border-b">
+                          COM ROSCA
+                        </div>
+                        {currentProduct.models?.filter((model: ProductModel) => 
+                          model.id.includes('cotovelo-90-2000-libras') || 
+                          model.id.includes('cotovelo-45-2000-libras') || 
+                          model.id.includes('te-2000-libras') || 
+                          model.id.includes('cruzeta-2000-libras') ||
+                          model.id.includes('plugs-e-buchas') ||
+                          model.id.includes('luva-3000#') ||
+                          model.id.includes('luva-6000#') ||
+                          model.id.includes('meia-luva-3000#') ||
+                          model.id.includes('meia-luva-6000#') ||
+                          model.id.includes('tampao-3000#') ||
+                          model.id.includes('tampao-6000#') ||
+                          model.id.includes('uniao-3000#')
+                        ).map((model: ProductModel) => (
+                          <SelectItem key={model.id} value={model.id}>
+                            {model.name}
+                          </SelectItem>
+                        ))}
+                        <div className="px-2 py-1.5 text-sm font-medium text-muted-foreground border-b border-t mt-1">
+                          SOCKET
+                        </div>
+                        {currentProduct.models?.filter((model: ProductModel) => 
+                          !model.id.includes('cotovelo-90-2000-libras') && 
+                          !model.id.includes('cotovelo-45-2000-libras') && 
+                          !model.id.includes('te-2000-libras') && 
+                          !model.id.includes('cruzeta-2000-libras') &&
+                          !model.id.includes('plugs-e-buchas') &&
+                          !model.id.includes('luva-3000#') &&
+                          !model.id.includes('luva-6000#') &&
+                          !model.id.includes('meia-luva-3000#') &&
+                          !model.id.includes('meia-luva-6000#') &&
+                          !model.id.includes('tampao-3000#') &&
+                          !model.id.includes('tampao-6000#') &&
+                          !model.id.includes('uniao-3000#')
+                        ).map((model: ProductModel) => (
                           <SelectItem key={model.id} value={model.id}>
                             {model.name}
                           </SelectItem>
@@ -1349,6 +2094,34 @@ const ProdutoDetalhes = () => {
                   )}
                 </CardContent>
               </Card>
+              )}
+
+              {/* For products without models, show info card */}
+              {(!currentProduct.models || currentProduct.models.length === 0) && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Informações do Produto</CardTitle>
+                    <CardDescription>
+                      Produto padrão sem variações de modelo ou tamanho
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-center py-8">
+                      <p className="text-muted-foreground mb-4">
+                        Este produto é fornecido em configuração padrão.
+                      </p>
+                      <Button 
+                        onClick={handleAddToQuote}
+                        className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                        size="lg"
+                      >
+                        <ShoppingCart className="mr-2 h-5 w-5" />
+                        Solicitar Orçamento
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
 
               {/* Technical Drawing and Specs */}
               {selectedSpec && (
@@ -1377,7 +2150,7 @@ const ProdutoDetalhes = () => {
               )}
 
               {/* Add to Quote */}
-              {selectedSpec && (
+              {(selectedSpec || (!currentProduct.models || currentProduct.models.length === 0)) && (
                 <Card>
                   <CardContent className="p-6">
                     <Button 
