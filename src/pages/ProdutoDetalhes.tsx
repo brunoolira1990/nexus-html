@@ -1898,6 +1898,60 @@ const ProdutoDetalhes = () => {
         "Sistemas de Aquecimento"
       ],
       models: []
+    },
+    "flange-com-pescoco-150": {
+      name: "Flange com Pescoço 150#",
+      category: "Flanges",
+      image: "/imagens/flange-com-pescoco/flanges_pescoco.png",
+      description: "Flanges com pescoço (welding neck) classe 150# fabricados conforme normas ASME B16.5. Ideais para aplicações de alta pressão e temperatura, oferecendo excelente resistência estrutural e vedação confiável.",
+      features: [
+        "Material aço carbono A105 ou aço inox 304/316",
+        "Fabricação conforme ASME B16.5",
+        "Face com ressalto (raised face) padrão",
+        "Soldagem de topo para máxima resistência",
+        "Disponível em diversas classes de pressão",
+        "Acabamento usinado de alta precisão",
+        "Conformidade com normas API e PETROBRAS",
+        "Certificação de qualidade incluída"
+      ],
+      applications: [
+        "Petróleo e Gás",
+        "Refinarias",
+        "Petroquímicas",
+        "Usinas de Energia",
+        "Sistemas de Vapor",
+        "Processamento Químico",
+        "Offshore",
+        "Plantas Industriais"
+      ],
+      models: [
+        {
+          id: "flange-com-pescoco-150",
+          name: "Flange com Pescoço 150# - Aço Carbono",
+          specifications: [
+            { size: "1/2\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-01.jpg" },
+            { size: "3/4\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-02.jpg" },
+            { size: "1\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-03.jpg" },
+            { size: "1.1/4\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-04.jpg" },
+            { size: "1.1/2\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-05.jpg" },
+            { size: "2\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-06.jpg" },
+            { size: "2.1/2\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-07.jpg" },
+            { size: "3\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-08.jpg" },
+            { size: "4\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-09.jpg" },
+            { size: "5\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-10.jpg" },
+            { size: "6\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-11.jpg" },
+            { size: "8\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-12.jpg" },
+            { size: "10\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-13.jpg" },
+            { size: "12\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-14.jpg" },
+            { size: "14\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-15.jpg" },
+            { size: "16\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-16.jpg" },
+            { size: "18\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-17.jpg" },
+            { size: "20\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-18.jpg" },
+            { size: "22\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-19.jpg" },
+            { size: "24\"", drawing_url: "/imagens/flange-com-pescoco/150-libras/img-20.jpg" }
+          ]
+        }
+      ]
     }
   };
 
