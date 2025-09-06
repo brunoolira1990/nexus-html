@@ -119,6 +119,20 @@ const ProdutoCategoria = () => {
         }
       ]
     },
+    "flanges": {
+      title: "Flanges",
+      description: "Flanges industriais de alta qualidade para conexão de tubulações. Disponíveis em diferentes classes de pressão e materiais, fabricados conforme normas ASME e API.",
+      products: [
+        {
+          id: "flange-com-pescoco-150",
+          name: "Flange com Pescoço 150#",
+          description: "Flanges com pescoço (welding neck) classe 150# para aplicações de alta pressão e temperatura",
+          image: "/imagens/flange-com-pescoco/flanges_pescoco.png",
+          applications: ["Petróleo e Gás", "Refinarias", "Petroquímicas"],
+          materials: ["Aço Carbono A105", "Aço Inox 304/316", "Aço Liga"]
+        }
+      ]
+    },
     // Adicionar outros dados de categoria aqui...
   };
 
